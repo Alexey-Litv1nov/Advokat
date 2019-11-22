@@ -1,0 +1,64 @@
+body {
+    width:70%; 
+    margin-left:15%; 
+    margin-right:15%;
+    background: radial-gradient(55em, rgb(228, 174, 57), rgba(0, 0, 0, 0));
+}
+@font-face {
+    font-family: 'Gotham Pro Regular';
+    src: url('../webfonts/GothamPro.eot');
+    src: url('../webfonts/GothamPro.eot?#iefix') format('embedded-opentype'),
+    url('../webfonts/GothamPro.woff') format('woff'),
+    url('../webfonts/GothamPro.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+html{
+    font-family: 'Gotham Pro Regular';
+}
+h1.recipe-title{
+    font-size: 40px;
+    text-align: center;
+    color: chocolate;
+}
+h1.recipe-description{
+    font-size: 20px;
+    text-align: center;
+    color: chocolate;
+}
+header {
+    width: 100%;
+}
+.recipe-picture{
+    text-align: center;
+}
+.ingredients {
+    background-color: #d9e0a6;
+    border: dotted 3px;
+}
+.ingredients table{
+    width:70%; 
+    margin-left:15%; 
+    margin-right:15%;
+}
+.header-list__list li{
+    list-style-type: none;
+}
+.table-header{
+    color: #d84c00;
+    font-size: 125%;
+    font-weight: bold;
+}
+.ingredients__ingredients-table .line-light{
+    background: #e5eac2;
+}
+.ingredients__ingredients-table td{
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+.head{
+    width: 80%;
+    height: 40px;
+    text-align: center;
+}
+
